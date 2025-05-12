@@ -121,3 +121,31 @@
 /* Done wityh the left side*/
 
 
+/* Media quesries */
+@media screen and (max-width:768px)  {
+    .main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+        .right{
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            margin: -2rem;
+            border-radius: 0;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            border-bottom-right-radius: 3rem;
+            border-bottom-left-radius: 3rem;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
