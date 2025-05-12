@@ -4,9 +4,13 @@
 }
 .main{
     display: flex;
-    margin: 2rem;
-    justify-content: center;
     gap: 2rem;
+    background-color: #faf1f1;
+    border-radius: 2rem;
+    width: 38rem;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 29rem;
     .left{
         display: flex;
         flex-direction: column;
@@ -50,5 +54,70 @@
             }
         } 
     }
+    .right{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        border-radius: 2rem;
+        padding: 1.5rem;
+        .top{
+            h4{
+                color: rgb(27, 27, 34);
+            }
+        }
+        .middle{
+            gap: 4rem;
+
+            .icons1, .icons2, .icons3, .icons4{
+                display: flex;
+                gap: 4rem;
+                justify-content: space-between;
+                border-radius: .5rem;
+                padding: .5rem;
+                margin: 1rem 0;
+            }
+            .icons1{
+                background-color: rgb(240, 232, 230);
+                p:first-child{
+                    color: rgb(241, 89, 89);
+                }
+            }
+            .icons2{
+                background-color: rgb(240, 240, 227);
+                p:first-child{
+                    color: rgb(224, 222, 80);
+                }
+            }
+            .icons3{
+                background-color: rgb(237, 243, 238);
+                p:first-child{
+                    color: rgb(33, 82, 44);
+                }
+            }
+            .icons4{
+                background-color: rgb(240, 241, 245);
+                p:first-child{
+                    color: rgb(21, 32, 54);
+                }
+            }
+
+        }
+        .bottom{
+            button{
+                color: whitesmoke;
+                background-color: rgb(12, 12, 37);
+                border: none;
+                width: 15rem;
+                height: 3rem;
+                border-radius: 5rem;
+                font-weight: bolder;
+            }
+            
+
+        }
+
+    }
 } 
 /* Done wityh the left side*/
+
+
