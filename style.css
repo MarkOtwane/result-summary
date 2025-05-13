@@ -122,9 +122,8 @@
 
 
 /* Media quesries */
-@media screen and (max-width:468px)  {
+@media screen and (max-width:600px)  {
     .main{
-        display: flex;
         flex-direction: column;
         background-color: white;
         justify-content: center;
@@ -133,19 +132,19 @@
         padding: 0;
         box-sizing: border-box;
             .right{
-                display: flex;
                 flex-direction: column;
                 padding: 1.5rem;
                 margin: -2rem;
                 border-radius: 0;
-                width: 100%;
+                width: 50%;
                 height: fit-content;
+                justify-content: space-around;
             }
             .left{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: center;
+                justify-content: space-between;
                 border-bottom-right-radius: 3rem;
                 border-bottom-left-radius: 3rem;
                 border-top-left-radius: 0;
@@ -154,5 +153,15 @@
                 padding: 1rem 0;
                 width: 100%;
             }
+    }
+}
+
+/* Tablet View */
+@media screen and (max-width:1078) {
+    .main{
+        width: 24em;
+        height: 24em;
+        margin-right: 2rem;
+        padding-right: 4rem;
     }
 }
